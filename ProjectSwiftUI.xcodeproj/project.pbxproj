@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26533D322A6A3FD100FADCE4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26533D312A6A3FD100FADCE4 /* CardView.swift */; };
+		26533D352A6A568400FADCE4 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26533D342A6A568400FADCE4 /* CustomBackgroundView.swift */; };
+		26533D382A6A59B700FADCE4 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26533D372A6A59B700FADCE4 /* ColorExtension.swift */; };
 		26AC9D692A6850DB00679CC8 /* ProjectSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9D682A6850DB00679CC8 /* ProjectSwiftUIApp.swift */; };
 		26AC9D6B2A6850DB00679CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9D6A2A6850DB00679CC8 /* ContentView.swift */; };
 		26AC9D6D2A6850DC00679CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AC9D6C2A6850DC00679CC8 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26533D312A6A3FD100FADCE4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		26533D342A6A568400FADCE4 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		26533D372A6A59B700FADCE4 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		26AC9D652A6850DB00679CC8 /* ProjectSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AC9D682A6850DB00679CC8 /* ProjectSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSwiftUIApp.swift; sourceTree = "<group>"; };
 		26AC9D6A2A6850DB00679CC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26533D332A6A561400FADCE4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				26533D312A6A3FD100FADCE4 /* CardView.swift */,
+				26533D342A6A568400FADCE4 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		26533D362A6A597D00FADCE4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				26533D372A6A59B700FADCE4 /* ColorExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		26AC9D5C2A6850DB00679CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +80,8 @@
 			children = (
 				26AC9D682A6850DB00679CC8 /* ProjectSwiftUIApp.swift */,
 				26AC9D6A2A6850DB00679CC8 /* ContentView.swift */,
+				26533D362A6A597D00FADCE4 /* Utility */,
+				26533D332A6A561400FADCE4 /* Component */,
 				26AC9D6C2A6850DC00679CC8 /* Assets.xcassets */,
 				26AC9D712A6850DC00679CC8 /* Persistence.swift */,
 				26AC9D732A6850DC00679CC8 /* ProjectSwiftUI.xcdatamodeld */,
@@ -146,7 +171,10 @@
 				26AC9D722A6850DC00679CC8 /* Persistence.swift in Sources */,
 				26AC9D752A6850DC00679CC8 /* ProjectSwiftUI.xcdatamodeld in Sources */,
 				26AC9D6B2A6850DB00679CC8 /* ContentView.swift in Sources */,
+				26533D352A6A568400FADCE4 /* CustomBackgroundView.swift in Sources */,
 				26AC9D692A6850DB00679CC8 /* ProjectSwiftUIApp.swift in Sources */,
+				26533D382A6A59B700FADCE4 /* ColorExtension.swift in Sources */,
+				26533D322A6A3FD100FADCE4 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
